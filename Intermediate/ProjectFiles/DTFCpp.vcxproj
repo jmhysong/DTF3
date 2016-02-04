@@ -44,7 +44,7 @@
 		</ProjectConfiguration>
 	</ItemGroup>
 	<PropertyGroup Label="Globals">
-		<ProjectGuid>{739F47A9-B1DC-4B20-AE66-D7EDF9AE0E57}</ProjectGuid>
+		<ProjectGuid>{3DE3B3AA-A904-46D9-86DF-A45B1BF1F2C4}</ProjectGuid>
 		<Keyword>MakeFileProj</Keyword>
 		<RootNamespace>DTFCpp</RootNamespace>
 	</PropertyGroup>
@@ -257,11 +257,14 @@
 		<None Include="..\..\Config\DefaultEditor.ini" />
 		<None Include="..\..\Config\DefaultEngine.ini" />
 		<None Include="..\..\Config\DefaultGame.ini" />
+		<None Include="..\..\Config\DefaultInput.ini" />
 		<None Include="..\..\Source\DTFCpp\DTFCpp.Build.cs" />
 		<ClCompile Include="..\..\Source\DTFCpp\DTFCpp.cpp" />
 		<ClInclude Include="..\..\Source\DTFCpp\DTFCpp.h" />
 		<ClCompile Include="..\..\Source\DTFCpp\DTFCppGameMode.cpp" />
 		<ClInclude Include="..\..\Source\DTFCpp\DTFCppGameMode.h" />
+		<ClCompile Include="..\..\Source\DTFCpp\DTFCppGameState.cpp" />
+		<ClInclude Include="..\..\Source\DTFCpp\DTFCppGameState.h" />
 		<ClCompile Include="..\..\Source\DTFCpp\DTFCppHUD.cpp" />
 		<ClInclude Include="..\..\Source\DTFCpp\DTFCppHUD.h" />
 		<ClCompile Include="..\..\Source\DTFCpp\DTFCppPlayerController.cpp" />
