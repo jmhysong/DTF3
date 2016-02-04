@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\DTFCpp.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{13F1E248-7F2D-431A-B918-1835BF9EBD6A}</UniqueIdentifier>
+			<UniqueIdentifier>{B9EF04E8-0DB0-41FF-B6F7-A4C1B1F1DC87}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\DTFCpp.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{D44CACB9-2CD5-409F-8C36-41BEC482CC36}</UniqueIdentifier>
+			<UniqueIdentifier>{80E34D99-6F6E-4EC0-8EF2-499E87DC99A8}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -28,7 +28,7 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\DTFCpp">
-			<UniqueIdentifier>{C78AA3F8-6560-4063-91FF-6D91815D7FBB}</UniqueIdentifier>
+			<UniqueIdentifier>{9347ABA9-577F-4C05-A2ED-0412BA60039D}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\DTFCpp\DTFCpp.Build.cs">
 			<Filter>Source\DTFCpp</Filter>
@@ -61,6 +61,12 @@
 			<Filter>Source\DTFCpp</Filter>
 		</ClCompile >
 		<ClInclude Include="..\..\Source\DTFCpp\DTFCppPlayerController.h">
+			<Filter>Source\DTFCpp</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\DTFCpp\DTFCppPlayerState.cpp">
+			<Filter>Source\DTFCpp</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\DTFCpp\DTFCppPlayerState.h">
 			<Filter>Source\DTFCpp</Filter>
 		</ClInclude >
 		<ClCompile Include="..\..\Source\DTFCpp\DTFCppUserWidget.cpp">

@@ -104,9 +104,9 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>"C:\Epic Games\4.10\Engine\Build\BatchFiles\Build.bat" DTFCpp Win32 DebugGame "$(SolutionDir)$(ProjectName).uproject" -rocket -waitmutex</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>"C:\Epic Games\4.10\Engine\Build\BatchFiles\Rebuild.bat" DTFCpp Win32 DebugGame "$(SolutionDir)$(ProjectName).uproject" -rocket -waitmutex</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>"C:\Epic Games\4.10\Engine\Build\BatchFiles\Clean.bat" DTFCpp Win32 DebugGame "$(SolutionDir)$(ProjectName).uproject" -rocket -waitmutex</NMakeCleanCommandLine>
+		<NMakeBuildCommandLine>"C:\Epic Games\4.10\Engine\Build\BatchFiles\Build.bat" DTFCpp Win32 DebugGame "$(SolutionDir)$(ProjectName).uproject" -rocket -waitmutex -2015</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>"C:\Epic Games\4.10\Engine\Build\BatchFiles\Rebuild.bat" DTFCpp Win32 DebugGame "$(SolutionDir)$(ProjectName).uproject" -rocket -waitmutex -2015</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>"C:\Epic Games\4.10\Engine\Build\BatchFiles\Clean.bat" DTFCpp Win32 DebugGame "$(SolutionDir)$(ProjectName).uproject" -rocket -waitmutex -2015</NMakeCleanCommandLine>
 		<NMakeOutput>..\..\Binaries\Win32\DTFCpp-Win32-DebugGame.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|Win32'" Label="PropertySheets">
@@ -132,9 +132,9 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>"C:\Epic Games\4.10\Engine\Build\BatchFiles\Build.bat" DTFCpp Win64 DebugGame "$(SolutionDir)$(ProjectName).uproject" -rocket -waitmutex</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>"C:\Epic Games\4.10\Engine\Build\BatchFiles\Rebuild.bat" DTFCpp Win64 DebugGame "$(SolutionDir)$(ProjectName).uproject" -rocket -waitmutex</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>"C:\Epic Games\4.10\Engine\Build\BatchFiles\Clean.bat" DTFCpp Win64 DebugGame "$(SolutionDir)$(ProjectName).uproject" -rocket -waitmutex</NMakeCleanCommandLine>
+		<NMakeBuildCommandLine>"C:\Epic Games\4.10\Engine\Build\BatchFiles\Build.bat" DTFCpp Win64 DebugGame "$(SolutionDir)$(ProjectName).uproject" -rocket -waitmutex -2015</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>"C:\Epic Games\4.10\Engine\Build\BatchFiles\Rebuild.bat" DTFCpp Win64 DebugGame "$(SolutionDir)$(ProjectName).uproject" -rocket -waitmutex -2015</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>"C:\Epic Games\4.10\Engine\Build\BatchFiles\Clean.bat" DTFCpp Win64 DebugGame "$(SolutionDir)$(ProjectName).uproject" -rocket -waitmutex -2015</NMakeCleanCommandLine>
 		<NMakeOutput>..\..\Binaries\Win64\DTFCpp-Win64-DebugGame.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|x64'" Label="PropertySheets">
@@ -149,9 +149,9 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>"C:\Epic Games\4.10\Engine\Build\BatchFiles\Build.bat" DTFCppEditor Win64 DebugGame "$(SolutionDir)$(ProjectName).uproject" -rocket -waitmutex</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>"C:\Epic Games\4.10\Engine\Build\BatchFiles\Rebuild.bat" DTFCppEditor Win64 DebugGame "$(SolutionDir)$(ProjectName).uproject" -rocket -waitmutex</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>"C:\Epic Games\4.10\Engine\Build\BatchFiles\Clean.bat" DTFCppEditor Win64 DebugGame "$(SolutionDir)$(ProjectName).uproject" -rocket -waitmutex</NMakeCleanCommandLine>
+		<NMakeBuildCommandLine>"C:\Epic Games\4.10\Engine\Build\BatchFiles\Build.bat" DTFCppEditor Win64 DebugGame "$(SolutionDir)$(ProjectName).uproject" -rocket -waitmutex -2015</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>"C:\Epic Games\4.10\Engine\Build\BatchFiles\Rebuild.bat" DTFCppEditor Win64 DebugGame "$(SolutionDir)$(ProjectName).uproject" -rocket -waitmutex -2015</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>"C:\Epic Games\4.10\Engine\Build\BatchFiles\Clean.bat" DTFCppEditor Win64 DebugGame "$(SolutionDir)$(ProjectName).uproject" -rocket -waitmutex -2015</NMakeCleanCommandLine>
 		<NMakeOutput>C:\Epic Games\4.10\Engine\Binaries\Win64\UE4Editor.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Game|Win32'" Label="PropertySheets">
@@ -166,9 +166,9 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>"C:\Epic Games\4.10\Engine\Build\BatchFiles\Build.bat" DTFCpp Win32 Development "$(SolutionDir)$(ProjectName).uproject" -rocket -waitmutex</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>"C:\Epic Games\4.10\Engine\Build\BatchFiles\Rebuild.bat" DTFCpp Win32 Development "$(SolutionDir)$(ProjectName).uproject" -rocket -waitmutex</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>"C:\Epic Games\4.10\Engine\Build\BatchFiles\Clean.bat" DTFCpp Win32 Development "$(SolutionDir)$(ProjectName).uproject" -rocket -waitmutex</NMakeCleanCommandLine>
+		<NMakeBuildCommandLine>"C:\Epic Games\4.10\Engine\Build\BatchFiles\Build.bat" DTFCpp Win32 Development "$(SolutionDir)$(ProjectName).uproject" -rocket -waitmutex -2015</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>"C:\Epic Games\4.10\Engine\Build\BatchFiles\Rebuild.bat" DTFCpp Win32 Development "$(SolutionDir)$(ProjectName).uproject" -rocket -waitmutex -2015</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>"C:\Epic Games\4.10\Engine\Build\BatchFiles\Clean.bat" DTFCpp Win32 Development "$(SolutionDir)$(ProjectName).uproject" -rocket -waitmutex -2015</NMakeCleanCommandLine>
 		<NMakeOutput>..\..\Binaries\Win32\DTFCpp.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|Win32'" Label="PropertySheets">
@@ -194,9 +194,9 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>"C:\Epic Games\4.10\Engine\Build\BatchFiles\Build.bat" DTFCpp Win64 Development "$(SolutionDir)$(ProjectName).uproject" -rocket -waitmutex</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>"C:\Epic Games\4.10\Engine\Build\BatchFiles\Rebuild.bat" DTFCpp Win64 Development "$(SolutionDir)$(ProjectName).uproject" -rocket -waitmutex</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>"C:\Epic Games\4.10\Engine\Build\BatchFiles\Clean.bat" DTFCpp Win64 Development "$(SolutionDir)$(ProjectName).uproject" -rocket -waitmutex</NMakeCleanCommandLine>
+		<NMakeBuildCommandLine>"C:\Epic Games\4.10\Engine\Build\BatchFiles\Build.bat" DTFCpp Win64 Development "$(SolutionDir)$(ProjectName).uproject" -rocket -waitmutex -2015</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>"C:\Epic Games\4.10\Engine\Build\BatchFiles\Rebuild.bat" DTFCpp Win64 Development "$(SolutionDir)$(ProjectName).uproject" -rocket -waitmutex -2015</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>"C:\Epic Games\4.10\Engine\Build\BatchFiles\Clean.bat" DTFCpp Win64 Development "$(SolutionDir)$(ProjectName).uproject" -rocket -waitmutex -2015</NMakeCleanCommandLine>
 		<NMakeOutput>..\..\Binaries\Win64\DTFCpp.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|x64'" Label="PropertySheets">
@@ -211,9 +211,9 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>"C:\Epic Games\4.10\Engine\Build\BatchFiles\Build.bat" DTFCppEditor Win64 Development "$(SolutionDir)$(ProjectName).uproject" -rocket -waitmutex</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>"C:\Epic Games\4.10\Engine\Build\BatchFiles\Rebuild.bat" DTFCppEditor Win64 Development "$(SolutionDir)$(ProjectName).uproject" -rocket -waitmutex</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>"C:\Epic Games\4.10\Engine\Build\BatchFiles\Clean.bat" DTFCppEditor Win64 Development "$(SolutionDir)$(ProjectName).uproject" -rocket -waitmutex</NMakeCleanCommandLine>
+		<NMakeBuildCommandLine>"C:\Epic Games\4.10\Engine\Build\BatchFiles\Build.bat" DTFCppEditor Win64 Development "$(SolutionDir)$(ProjectName).uproject" -rocket -waitmutex -2015</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>"C:\Epic Games\4.10\Engine\Build\BatchFiles\Rebuild.bat" DTFCppEditor Win64 Development "$(SolutionDir)$(ProjectName).uproject" -rocket -waitmutex -2015</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>"C:\Epic Games\4.10\Engine\Build\BatchFiles\Clean.bat" DTFCppEditor Win64 Development "$(SolutionDir)$(ProjectName).uproject" -rocket -waitmutex -2015</NMakeCleanCommandLine>
 		<NMakeOutput>C:\Epic Games\4.10\Engine\Binaries\Win64\UE4Editor.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Game|Win32'" Label="PropertySheets">
@@ -228,9 +228,9 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>"C:\Epic Games\4.10\Engine\Build\BatchFiles\Build.bat" DTFCpp Win32 Shipping "$(SolutionDir)$(ProjectName).uproject" -rocket -waitmutex</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>"C:\Epic Games\4.10\Engine\Build\BatchFiles\Rebuild.bat" DTFCpp Win32 Shipping "$(SolutionDir)$(ProjectName).uproject" -rocket -waitmutex</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>"C:\Epic Games\4.10\Engine\Build\BatchFiles\Clean.bat" DTFCpp Win32 Shipping "$(SolutionDir)$(ProjectName).uproject" -rocket -waitmutex</NMakeCleanCommandLine>
+		<NMakeBuildCommandLine>"C:\Epic Games\4.10\Engine\Build\BatchFiles\Build.bat" DTFCpp Win32 Shipping "$(SolutionDir)$(ProjectName).uproject" -rocket -waitmutex -2015</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>"C:\Epic Games\4.10\Engine\Build\BatchFiles\Rebuild.bat" DTFCpp Win32 Shipping "$(SolutionDir)$(ProjectName).uproject" -rocket -waitmutex -2015</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>"C:\Epic Games\4.10\Engine\Build\BatchFiles\Clean.bat" DTFCpp Win32 Shipping "$(SolutionDir)$(ProjectName).uproject" -rocket -waitmutex -2015</NMakeCleanCommandLine>
 		<NMakeOutput>..\..\Binaries\Win32\DTFCpp-Win32-Shipping.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Game|x64'" Label="PropertySheets">
@@ -245,9 +245,9 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>"C:\Epic Games\4.10\Engine\Build\BatchFiles\Build.bat" DTFCpp Win64 Shipping "$(SolutionDir)$(ProjectName).uproject" -rocket -waitmutex</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>"C:\Epic Games\4.10\Engine\Build\BatchFiles\Rebuild.bat" DTFCpp Win64 Shipping "$(SolutionDir)$(ProjectName).uproject" -rocket -waitmutex</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>"C:\Epic Games\4.10\Engine\Build\BatchFiles\Clean.bat" DTFCpp Win64 Shipping "$(SolutionDir)$(ProjectName).uproject" -rocket -waitmutex</NMakeCleanCommandLine>
+		<NMakeBuildCommandLine>"C:\Epic Games\4.10\Engine\Build\BatchFiles\Build.bat" DTFCpp Win64 Shipping "$(SolutionDir)$(ProjectName).uproject" -rocket -waitmutex -2015</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>"C:\Epic Games\4.10\Engine\Build\BatchFiles\Rebuild.bat" DTFCpp Win64 Shipping "$(SolutionDir)$(ProjectName).uproject" -rocket -waitmutex -2015</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>"C:\Epic Games\4.10\Engine\Build\BatchFiles\Clean.bat" DTFCpp Win64 Shipping "$(SolutionDir)$(ProjectName).uproject" -rocket -waitmutex -2015</NMakeCleanCommandLine>
 		<NMakeOutput>..\..\Binaries\Win64\DTFCpp-Win64-Shipping.exe</NMakeOutput>
 	</PropertyGroup>
 	<ItemGroup>
@@ -269,6 +269,8 @@
 		<ClInclude Include="..\..\Source\DTFCpp\DTFCppHUD.h" />
 		<ClCompile Include="..\..\Source\DTFCpp\DTFCppPlayerController.cpp" />
 		<ClInclude Include="..\..\Source\DTFCpp\DTFCppPlayerController.h" />
+		<ClCompile Include="..\..\Source\DTFCpp\DTFCppPlayerState.cpp" />
+		<ClInclude Include="..\..\Source\DTFCpp\DTFCppPlayerState.h" />
 		<ClCompile Include="..\..\Source\DTFCpp\DTFCppUserWidget.cpp" />
 		<ClInclude Include="..\..\Source\DTFCpp\DTFCppUserWidget.h" />
 	</ItemGroup>

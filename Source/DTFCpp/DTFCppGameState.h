@@ -13,7 +13,8 @@ class DTFCPP_API ADTFCppGameState : public AGameState
 {
 	GENERATED_BODY()
 	
-	
-	
+public:
+	ADTFCppGameState(const FObjectInitializer& ObjectInitializer);
+	void ADTFCppGameState::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const override;
 	
 };
